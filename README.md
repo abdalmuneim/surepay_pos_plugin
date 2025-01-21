@@ -1,7 +1,7 @@
 # Surepay POS Plugin
 
 [![pub package](https://img.shields.io/pub/v/custom_widgets_2.svg)](https://pub.dev/packages/surepay_pos_plugin)
-A Flutter plugin for integrating with Sure POS USB SDK. This plugin enables communication with Sure POS terminals via USB connection.
+A Flutter plugin for integrating with Surepay POS USB SDK. This plugin enables communication with Surepay POS terminals via USB connection.
 
 ## Features
 
@@ -16,7 +16,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  sure_pos_plugin: ^0.0.1
+  surepay_pos_plugin: ^0.0.1
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ First, initialize the USB connection:
 
 ```dart
 try {
-  String result = await SurePosPlugin.initializeUsb();
+  String result = await SurepayPosPlugin.initializeUsb();
   print('Initialized: $result');
 } catch (e) {
   print('Error initializing: $e');
@@ -35,7 +35,7 @@ try {
 Listen to terminal events:
 
 ```dart
-SurePosPlugin.eventStream.listen((event) {
+SurepayPosPlugin.eventStream.listen((event) {
   print('Event received: $event');
 });
 ```
@@ -44,7 +44,7 @@ Send an amount to the terminal:
 
 ```dart
 try {
-  String result = await SurePosPlugin.sendAmount("100.00");
+  String result = await SurepayPosPlugin.sendAmount("100.00");
   print('Amount sent: $result');
 } catch (e) {
   print('Error sending amount: $e');
