@@ -1,6 +1,6 @@
 name: surepay_pos_plugin
 description: A Flutter plugin for integrating with Sure POS USB SDK. This plugin enables communication with Sure POS terminals via USB connection.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/abdalmuneim/surepay_pos_plugin
 
 environment:
