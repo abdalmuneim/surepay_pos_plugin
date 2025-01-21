@@ -16,7 +16,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  surepay_pos_plugin: ^0.0.2
+  surepay_pos_plugin: ^0.0.3
 ```
 
 ## Usage
@@ -56,8 +56,6 @@ try {
 * Make sure to add necessary USB permissions to your Android manifest
 
 ```XML
-<uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 <uses-permission android:name="android.permission.USB_PERMISSION" />
 ```
 * Requires Android API level 23 or higher
