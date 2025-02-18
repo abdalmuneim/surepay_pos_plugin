@@ -1,6 +1,6 @@
 # Surepay POS Plugin
 
-[![pub package](https://img.shields.io/pub/v/custom_widgets_2.svg)](https://pub.dev/packages/surepay_pos_plugin)
+[![pub package](https://img.shields.io/pub/v/surepay_pos_plugin.svg)](https://pub.dev/packages/surepay_pos_plugin)
 A Flutter plugin for integrating with Surepay POS USB SDK. This plugin enables communication with Surepay POS terminals via USB connection.
 
 ## Features
